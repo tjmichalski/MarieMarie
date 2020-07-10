@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>About Us</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,
+        600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <section>
+    <header class="header">
+      <div class="logo-wrapper">
+        <img src="long_logo_transparent2.png" alt="Marie Marie Bakerie" />
+      </div>
+      <nav class="topbar-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li class="current"><a href="contact.html">Contact</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="contact-page">
+      <div class="contact-top">
+        <h1>Contact Us!</h1>
+        <p>
+          See something you liked? Have any questions? Want to set up a phone
+          call to discuss an order, or maybe you're ready to place your order
+          - just send us a message below!
+        </p>
+      </div>
+      <div class="contact-middle">
+        <form action="https://formspree.io/xleppbre" method="POST">
+          <div class="first-name">
+            <input type="text" name="_subject" placeholder="First Name" />
+          </div>
+          <div class="last-name">
+            <input type="text" name="_subject" placeholder="Last Name" />
+          </div>
+          <div class="email">
+            <input type="email" name="_replyto" placeholder="Email" />
+          </div>
+          <div class="phone-num">
+            <input type="number" name="_subject" placeholder="Phone Number" />
+          </div>
+          <div class="msg">
+            <textarea name="message" placeholder="Your Message"></textarea>
+          </div>
+          <input type="hidden" name="_subject" value="Website Submission" />
+          <div class="button-wrapper">
+            <button type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+      <div class="contact-bottom">
+        <div class="contact-wrapper email">
+          <div class="contact-image-wrapper">
+            <img
+            src="Mail-595b40b75ba036ed117d6628.svg"
+          />
+          </div>
+          <a href="#">Mariemariebakerie@gmail.com</a>
+        </div>
+        <div class="contact-wrapper instagram">
+          <div class="contact-image-wrapper">
+            <img
+            src="iconfinder_social-media-instagram_2899108.svg"
+          />
+          </div>
+          <a href="www.instagram.com/mariemariebakerie" target="_blank">www.instagram.com/mariemariebakerie</a>
+        </div>
+        <div class="contact-wrapper facebook">
+          <div class="contact-image-wrapper">
+            <img
+            src="iconfinder_social-media-facebook_2899111.svg"
+          />
+          </div>
+          <a href="www.facebook.com/marie.marie.bakeries">www.facebook.com/marie.marie.bakeries</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="contact.js"></script>
+</body>
+
+</html>
